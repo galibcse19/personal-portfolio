@@ -79,3 +79,35 @@ nav a {
 .desc{
     margin-top: -10px;
 }
+
+ .skill-cointainer{
+    display: flex;
+    text-align: center;
+ }
+ .skill-cointainer .skill{
+    background-color:burlywood;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 2px solid brown;
+    padding: 12px 0 5px 5px ;
+ }
+ .edu {
+     background-color: beige;
+     margin: 100px 300px 0;
+     padding: 1px 0;
+ }
+ .edu .head{
+    text-align: center;
+ }
+ .edu-cont{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 300px 0;
+ }
+ .edu-cont .edu1{
+    margin-right: 20px;
+    text-align: justify;
+ }
+ .dcv .pri-button{
+      margin:10px 645px;
+ }
