@@ -1,0 +1,38 @@
+/* common style */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.pri-button{
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-size: 28px;
+    font-weight: 320;
+    border: none;
+}
+/* nav related style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight:800;
+}
+.text-color-p{
+  color: orange;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin: 10px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+}
