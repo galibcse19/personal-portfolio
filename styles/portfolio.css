@@ -28,7 +28,7 @@ nav{
 }
 nav>ul{
     display: flex;
-    align-items: center;
+    align-items: center;   
 }
 nav li {
     list-style: none;
@@ -52,7 +52,7 @@ nav a {
 }
 .banner .p-pic{
     padding-right:130px;
-     width: 300px;
+    width: 300px;
 }
 
 /* main section  */
@@ -69,7 +69,7 @@ nav a {
     text-align: center;
 }
 
-.about-cointainer{
+.about-container{
     display: flex;
     justify-content: space-around;
 }
@@ -80,11 +80,11 @@ nav a {
     margin-top: -10px;
 }
 
- .skill-cointainer{
+ .skill-container{
     display: flex;
     text-align: center;
  }
- .skill-cointainer .skill{
+ .skill-container .skill{
     background-color:burlywood;
     margin: 0 10px;
     border-radius: 5px;
@@ -122,4 +122,56 @@ nav a {
  }
 .formin{
     padding: 15px 286px 15px 10px;
+}
+
+@media screen and (max-width:576px) {
+    .skill-container{
+         flex-direction: column;
+    }
+    .about{
+        margin: 10px;
+    }
+    .edu-cont{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .edu {
+            background-color: beige;
+            margin: 20px 50px ;
+            padding: 1px 0;
+         }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+    }  
+    .formin {
+            padding: 10px 210px 10px 0 ;
+        }
+        .dcv .pri-button {
+              margin: 0 auto;
+              margin-bottom: 40px;
+          }
+    .about-container{
+        flex-direction: column;
+    }      
+    .banner{
+        flex-direction: column;
+        padding: 10px 20px;
+    } 
+    .banner .p-pic{
+        padding: 10px 20px ;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+    nav>ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    .nav-title {
+            font-size: 45px;
+            font-weight: 800;
+            margin: 0 auto;
+        }
 }
